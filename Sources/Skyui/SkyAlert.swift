@@ -5,8 +5,10 @@
 //  Created by skyler peterson on 6/20/26.
 //
 
+
 import SwiftUI
 
+@MainActor
 public enum SkyAlert {
 
     public static func error(
@@ -74,8 +76,6 @@ public enum SkyAlert {
     }
 
     private static func show(_ model: SkyAlertModel) {
-        Task { @MainActor in
-            SkyAlertManager.shared.show(model)
-        }
+        SkyAlertManager.shared.show(model)
     }
 }
