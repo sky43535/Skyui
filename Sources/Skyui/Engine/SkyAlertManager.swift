@@ -8,7 +8,10 @@
 
 import SwiftUI
 import Combine
+
+@MainActor
 final class SkyAlertManager: ObservableObject {
+
     static let shared = SkyAlertManager()
 
     @Published var currentAlert: SkyAlertModel?
