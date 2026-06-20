@@ -74,7 +74,7 @@ public enum SkyAlert {
     }
 
     private static func show(_ model: SkyAlertModel) {
-        DispatchQueue.main.async {
+        Task { @MainActor in
             SkyAlertManager.shared.show(model)
         }
     }
