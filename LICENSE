@@ -1,4 +1,4 @@
-MIT License
+MIT License (with Commercial Attribution Clause)
 
 Copyright (c) 2026 Skysmind
 
@@ -9,8 +9,24 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+
+Notice. The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+Commercial Attribution. If the Software, or a derivative work containing
+the Software, is sold or otherwise commercially distributed — including
+but not limited to as part of a paid application, paid SDK, paid package,
+or any product offered for purchase or subscription — the distributor must
+include a visible attribution credit, for example:
+"Alerts and toasts made by Skyui, a Skysmind project."
+
+This credit must appear in at least one reasonably discoverable location,
+such as: an About / Credits / Settings screen, the product's public
+marketing or documentation page, or the README of the redistributed
+package.
+Free, non-commercial, internal, and personal use of the Software do NOT
+require this visible credit, though the notice in condition 1 still
+applies regardless of use case.
+
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -20,17 +36,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
----
 
-### Attribution (appreciated, not required)
+Plain-English Summary (not part of the legal terms)
 
-The license above is standard MIT — the only legal requirement is keeping
-the copyright notice intact in copies of the Software. Nothing else is
-mandatory.
 
-That said, if Skyui saves you time, a quiet credit somewhere in your app
-(an About screen, settings page, or README) is genuinely appreciated:
-
-> Alerts and toasts made by Skyui, a Skysmind project.
-
-No tracking, no enforcement — just good karma. 💙
+✅ Free to use, fork, and modify — personal or commercial, no payment owed.
+✅ Bundle it into your own app for free.
+💰 Selling something that includes Skyui? Add a small visible credit.
+📎 Suggested credit line: "Alerts and toasts made by Skyui, a Skysmind project."
