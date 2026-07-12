@@ -10,9 +10,9 @@ import SwiftUI
 import Combine
 
 @MainActor
-final class SkyAlertManager: ObservableObject {
+public final class SkyAlertManager: ObservableObject {
 
-    static let shared = SkyAlertManager()
+    public static let shared = SkyAlertManager()
 
     @Published var currentAlert: SkyAlertModel?
 
@@ -20,7 +20,7 @@ final class SkyAlertManager: ObservableObject {
         currentAlert = alert
     }
 
-    func dismiss() {
+    public func dismiss() {
         currentAlert = nil
     }
 }
